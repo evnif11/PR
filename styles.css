@@ -1,0 +1,107 @@
+body {
+    font-family: Montserrat, sans-serif !important;
+
+}
+/* navigation bar */
+.navbar {
+    background-color: #41436A;
+}
+.navbar-brand {
+    color: azure;
+}
+
+.navbar-brand:hover {
+    color: #a0aaaa !important;
+}
+
+/* main */
+.masthead {
+    padding-top: 9rem;
+    padding-bottom: 6rem;
+    background-color: #41436A;
+    font-weight: 400;
+    color: azure;
+}
+
+.masthead-avatar {
+    width: 18rem;
+    border-radius: 50%;
+}
+
+.subline {
+    font-size: 1.3rem;
+}
+
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom-line {
+    width: 100%;
+    max-width: 14rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+}
+
+.masthead-line {
+    width: 100%;
+    max-width: 14rem;
+    height: 0.25rem;
+    background-color: azure;
+    border-radius: 1rem;
+    border-color: azure;
+    justify-content: center;
+}
+
+/* interest */
+.portfolio {
+    padding-top: 40px;
+    background-color: #41436A;
+    color: azure;
+}
+.portfolio .portfolio-item {
+    cursor: pointer;
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.portfolio-item:hover{
+    animation-name: dimOut;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-out;
+    opacity: 0.5;
+}
+
+.page-section {
+    padding: 2rem 0;
+    padding-top: 6rem;
+}
+
+.gallery {
+    padding: 3rem 0;
+}
+
+@keyframes dimOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+.nav-link {
+    color: azure !important;
+}
+.nav-link:hover {
+    color: #a0aaaa !important;
+}
